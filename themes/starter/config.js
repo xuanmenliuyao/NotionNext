@@ -215,7 +215,7 @@ const CONFIG = {
     STARTER_TEAM_ITEMS: [
       {
         STARTER_TEAM_ITEM_AVATAR:
-          '/images/starter/team/jinshan.png',
+          '/images/starter/team/jinshan.jpg',
         STARTER_TEAM_ITEM_NICKNAME: '金山道人',
         STARTER_TEAM_ITEM_DESCRIPTION: ''
       },
