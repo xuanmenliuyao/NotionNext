@@ -220,13 +220,13 @@ const CONFIG = {
         STARTER_TEAM_ITEM_DESCRIPTION: ''
       },
       {
-        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/otherteam.png',
-        STARTER_TEAM_ITEM_NICKNAME: '欢迎您的加入',
+        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/yayan.jpg',
+        STARTER_TEAM_ITEM_NICKNAME: '雅研',
         STARTER_TEAM_ITEM_DESCRIPTION: ''
       },
       {
-        STARTER_TEAM_ITEM_AVATAR: '',
-        STARTER_TEAM_ITEM_NICKNAME: '',
+        STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/otherteam.png',
+        STARTER_TEAM_ITEM_NICKNAME: '欢迎您的加入',
         STARTER_TEAM_ITEM_DESCRIPTION: ''
       },
       {
