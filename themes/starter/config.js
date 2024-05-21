@@ -84,7 +84,7 @@ const CONFIG = {
     STARTER_PRICING_1_FEATURES: '点堂查事,解梦,其他答疑解惑,', // 英文逗号隔开
     STARTER_PRICING_1_BUTTON_TEXT: '立即购买',
     STARTER_PRICING_1_BUTTON_URL:
-      'https://tangly1024.lemonsqueezy.com/checkout/buy/c1a38a65-362e-44c5-8065-733fee39eb54',
+      ' https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1103571046&from=items_share&msource=items_share',
 
     STARTER_PRICING_2_TITLE: '入门版',
     STARTER_PRICING_2_PRICE: '360',
@@ -94,7 +94,7 @@ const CONFIG = {
     STARTER_PRICING_2_FEATURES: '赠送玄门六爻讲义,内部社群,佛法、道法答疑,经文含义解析,仙道相关,解梦原理,', // 英文逗号隔开
     STARTER_PRICING_2_BUTTON_TEXT: '立即购买',
     STARTER_PRICING_2_BUTTON_URL:
-      'https://tangly1024.lemonsqueezy.com/checkout/buy/c1a38a65-362e-44c5-8065-733fee39eb54',
+      'https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1103614046&from=items_share&msource=items_share',
   
     STARTER_PRICING_3_TAG: '推荐',
     STARTER_PRICING_3_TITLE: '普惠版',
@@ -105,7 +105,7 @@ const CONFIG = {
     STARTER_PRICING_3_FEATURES: '包含入门版,六爻传授,免费查事,丹道答疑', // 英文逗号隔开
     STARTER_PRICING_3_BUTTON_TEXT: '立即购买',
     STARTER_PRICING_3_BUTTON_URL:
-      'https://tangly1024.lemonsqueezy.com/checkout/buy/590ad70a-c3b7-4caf-94ec-9ca27bde06d4',
+      'https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1103733046&from=items_share&msource=items_share',
   
     STARTER_PRICING_4_TITLE: '终生版',
     STARTER_PRICING_4_PRICE: '4800',
@@ -115,7 +115,7 @@ const CONFIG = {
     STARTER_PRICING_4_FEATURES: '包含普惠版,所有内部书籍免费赠送', // 英文逗号隔开
     STARTER_PRICING_4_BUTTON_TEXT: '立即购买',
     STARTER_PRICING_4_BUTTON_URL:
-      'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
+      'https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1103734046&from=items_share&msource=items_share',
   
     // 首页用户测评区块
     STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
@@ -242,7 +242,7 @@ const CONFIG = {
     STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
     STARTER_BLOG_TEXT_1: '最近的动态',
     STARTER_BLOG_TEXT_2:
-      '这里会发布一些关于卜仙堂的最新动态，包括我的计划、新的内容、新的博文！',
+      '这里会发布一些关于卜仙堂的最新动态，包括我的计划、新的内容！',
   
     // 联系模块
     STARTER_CONTACT_ENABLE: true, // 联系模块开关
@@ -308,7 +308,7 @@ const CONFIG = {
         LINK_GROUP: [
           { TITLE: '官方主页', URL: '/#home' },
           { TITLE: '关于卜仙堂',
-            URL: 'https://www.buxiantang.top/post/about'
+            URL: 'https://buxiantang.top/post/about'
           },
         ]
       },
