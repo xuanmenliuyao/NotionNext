@@ -13,7 +13,7 @@ const CONFIG = {
     STARTER_HERO_TITLE_1: '持续稳定且深入指导修行的答疑服务', // 英雄区文字
     STARTER_HERO_TITLE_2: '通过答疑服务，让您不再迷茫和焦虑', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    STARTER_HERO_BUTTON_1_TEXT: '我的博客&#128070;', // 英雄区按钮
+    STARTER_HERO_BUTTON_1_TEXT: '我的博客👆;', // 英雄区按钮
     STARTER_HERO_BUTTON_1_URL:
       'https://blog.buxiantang.top', // 英雄区按钮
     STARTER_HERO_BUTTON_2_TEXT: '在BiliBili上关注', // 英雄区按钮
