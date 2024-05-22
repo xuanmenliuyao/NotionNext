@@ -13,7 +13,7 @@ const CONFIG = {
     STARTER_HERO_TITLE_1: '持续稳定且深入指导修行的答疑服务', // 英雄区文字
     STARTER_HERO_TITLE_2: '通过答疑服务，让您不再迷茫和焦虑', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    STARTER_HERO_BUTTON_1_TEXT: '我的博客', // 英雄区按钮
+    STARTER_HERO_BUTTON_1_TEXT: '我的博客&#128070;', // 英雄区按钮
     STARTER_HERO_BUTTON_1_URL:
       'https://blog.buxiantang.top', // 英雄区按钮
     STARTER_HERO_BUTTON_2_TEXT: '在BiliBili上关注', // 英雄区按钮
@@ -36,8 +36,8 @@ const CONFIG = {
     STARTER_FEATURE_TEXT_2:
       '卜仙堂的愿景是帮助更多的六道修行者明悟修行之道，在修行路上越走越远，为隐态世界贡献一份微薄之力！ ', // 特性
   
-    STARTER_FEATURE_1_TITLE_1: '价格优惠', // 特性1
-    STARTER_FEATURE_1_TEXT_1: '考虑存在部分修行者窘困的经济现状，卜仙堂不会设高价；并且您在购买后的一个月内退出，可以为您退费', // 特性1
+    STARTER_FEATURE_1_TITLE_1: '安全可靠', // 特性1
+    STARTER_FEATURE_1_TEXT_1: '我们不会圈堂劫财及限制自由', // 特性1
     STARTER_FEATURE_1_BUTTON_TEXT: '', // 特性1
     STARTER_FEATURE_1_BUTTON_URL: '', // 特性1
   
@@ -51,8 +51,8 @@ const CONFIG = {
     STARTER_FEATURE_3_BUTTON_TEXT: '', // 特性3
     STARTER_FEATURE_3_BUTTON_URL: '', // 特性3
   
-    STARTER_FEATURE_4_TITLE_1: '安全可靠', // 特性4
-    STARTER_FEATURE_4_TEXT_1: '我们不会圈堂劫财及限制自由', // 特性4
+    STARTER_FEATURE_4_TITLE_1: '价格优惠', // 特性4
+    STARTER_FEATURE_4_TEXT_1: '考虑存在部分修行者窘困的经济现状，卜仙堂不会设高价；并且您在购买后的一个月内退出，可以为您退费', // 特性4
     STARTER_FEATURE_4_BUTTON_TEXT: '', // 特性4
     STARTER_FEATURE_4_BUTTON_URL: '', // 特性4
   
