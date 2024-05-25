@@ -121,28 +121,25 @@ const LayoutIndex = props => {
  * @returns
  */
 const LayoutSlug = props => {
-  const { post } = props;
-  
-  // 如果 是 /article/[slug] 的文章路径则视情况进行重定向到另一个域名
+  const { post } = props
+
+  // 如果 是 /article/[slug] 的文章路径则視情況进行重定向到另一个域名
+  const router = useRouter()
   if (
     !post &&
     siteConfig('STARTER_POST_REDIRECT_ENABLE', null, CONFIG) &&
     isBrowser &&
     router.route === '/[prefix]/[slug]'
   ) {
-    let redirectUrl =
+    const redirectUrl =
       siteConfig('STARTER_POST_REDIRECT_URL', null, CONFIG) +
-      router.asPath.replace('?theme=landing', '');
-
-    // 在重定向之前对URL进行检查和改写
-    redirectUrl = checkAndRewriteUrl(redirectUrl);
-
-    router.push(redirectUrl);
+      router.asPath.replace('?theme=landing', '')
+    router.push(redirectUrl)
     return (
       <div id='theme-starter'>
         <Loading />
       </div>
-    );
+    )
   }
 
   return (
@@ -264,6 +261,7 @@ export {
   Layout404,
   LayoutArchive,
   LayoutBase,
+  LayoutCategoryIndex,
   LayoutIndex,
   LayoutPostList,
   LayoutSearch,
@@ -271,6 +269,5 @@ export {
   LayoutSignUp,
   LayoutSlug,
   LayoutTagIndex,
-  LayoutCategoryIndex,
   CONFIG as THEME_CONFIG
 }
