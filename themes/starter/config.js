@@ -84,17 +84,17 @@ const CONFIG = {
     STARTER_PRICING_1_FEATURES: '点堂查事,解梦,其他答疑解惑,', // 英文逗号隔开
     STARTER_PRICING_1_BUTTON_TEXT: '立即购买',
     STARTER_PRICING_1_BUTTON_URL:
-      ' https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1103571046&from=items_share&msource=items_share',
+      'https://gf.bilibili.com/item/detail/1103571046',
 
     STARTER_PRICING_2_TITLE: '入门版',
-    STARTER_PRICING_2_PRICE: '360',
+    STARTER_PRICING_2_PRICE: '365',
     STARTER_PRICING_2_PRICE_CURRENCY: '￥',
     STARTER_PRICING_2_PRICE_PERIOD: '每年',
     STARTER_PRICING_2_HEADER: '内容',
     STARTER_PRICING_2_FEATURES: '赠送玄门六爻讲义,内部社群,佛法、道法答疑,经文含义解析,仙道相关,解梦原理,', // 英文逗号隔开
     STARTER_PRICING_2_BUTTON_TEXT: '立即购买',
     STARTER_PRICING_2_BUTTON_URL:
-      'https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1103614046&from=items_share&msource=items_share',
+      'https://gf.bilibili.com/item/detail/1103614046',
   
     STARTER_PRICING_3_TAG: '推荐',
     STARTER_PRICING_3_TITLE: '普惠版',
@@ -105,7 +105,7 @@ const CONFIG = {
     STARTER_PRICING_3_FEATURES: '包含入门版,六爻传授,免费查事,丹道答疑', // 英文逗号隔开
     STARTER_PRICING_3_BUTTON_TEXT: '立即购买',
     STARTER_PRICING_3_BUTTON_URL:
-      'https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1103733046&from=items_share&msource=items_share',
+      'https://gf.bilibili.com/item/detail/1103733046',
   
     STARTER_PRICING_4_TITLE: '终生版',
     STARTER_PRICING_4_PRICE: '4800',
@@ -115,7 +115,7 @@ const CONFIG = {
     STARTER_PRICING_4_FEATURES: '包含普惠版,所有内部书籍免费赠送', // 英文逗号隔开
     STARTER_PRICING_4_BUTTON_TEXT: '立即购买',
     STARTER_PRICING_4_BUTTON_URL:
-      'https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1103734046&from=items_share&msource=items_share',
+      'https://gf.bilibili.com/item/detail/1103734046',
   
     // 首页用户测评区块
     STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
