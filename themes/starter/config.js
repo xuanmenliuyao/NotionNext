@@ -307,6 +307,7 @@ const CONFIG = {
         TITLE: '关于',
         LINK_GROUP: [
           { TITLE: '官方主页', URL: '/#home' },
+          { TITLE: '官方博客', URL: 'https://blog.buxiantang.top' },
           { TITLE: '关于卜仙堂',
             URL: 'https://buxiantang.top/about'
           },
