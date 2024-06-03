@@ -16,9 +16,9 @@ const CONFIG = {
     STARTER_HERO_BUTTON_1_TEXT: '我的博客👈', // 英雄区按钮
     STARTER_HERO_BUTTON_1_URL:
       'https://blog.buxiantang.top', // 英雄区按钮
-    STARTER_HERO_BUTTON_2_TEXT: '在BiliBili上关注', // 英雄区按钮
-    STARTER_HERO_BUTTON_2_URL: 'https://space.bilibili.com/265656567', // 英雄区按钮
-    STARTER_HERO_BUTTON_2_ICON: '/images/starter/bilibili.png', // 英雄区按钮2的图标，不需要则留空
+    STARTER_HERO_BUTTON_2_TEXT: '加入QQ群聊', // 英雄区按钮
+    STARTER_HERO_BUTTON_2_URL: 'https://qm.qq.com/cgi-bin/qm/qr?k=XuuI3LuOTAHNkvbXYCkUFboencsdyhng&jump_from=webapi&authKey=fjrG6utvJKd+8cQ67fDBQdjxgicl3qYZxNYJdJwMktcziBeCyyKyXmwL05gQirsF', // 英雄区按钮
+    STARTER_HERO_BUTTON_2_ICON: '/images/starter/logo/qq.svg', // 英雄区按钮2的图标，不需要则留空
   
     STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/followers.png', // 产品预览图 ，默认读取public目录下图片
   
