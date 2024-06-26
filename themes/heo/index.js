@@ -41,6 +41,7 @@ import SearchNav from './components/SearchNav'
 import SideRight from './components/SideRight'
 import CONFIG from './config'
 import { Style } from './style'
+import Loader from './components/Loader'
 
 /**
  * 基础布局 采用上中下布局，移动端使用顶部侧边导航栏
@@ -54,6 +55,22 @@ const LayoutBase = props => {
   // 全屏模式下的最大宽度
   const { fullWidth, isDarkMode } = useGlobal()
   const router = useRouter()
+  const [isLoading, setLoading] = useState(true); // 添加isLoading状态
+
+  useEffect(() => {
+    loadWowJS(); // 加载wow动画
+
+    // 页面加载完成后隐藏Loader
+    const handlePageLoad = () => {
+      setLoading(false); // 设置isLoading为false，隐藏Loader
+    };
+
+    window.addEventListener('load', handlePageLoad); // 监听页面加载事件
+
+    return () => {
+      window.removeEventListener('load', handlePageLoad);
+    };
+  }, []);
 
   const headerSlot = (
     <header>
@@ -93,6 +110,8 @@ const LayoutBase = props => {
       id='theme-heo'
       className={`${siteConfig('FONT_STYLE')} bg-[#f7f9fe] dark:bg-[#18171d] h-full min-h-screen flex flex-col scroll-smooth`}>
       <Style />
+      {/* Loader组件 */}
+      {isLoading && <Loader />}
 
       {/* 顶部嵌入 导航栏，首页放hero，文章页放文章详情 */}
       {headerSlot}
