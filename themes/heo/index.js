@@ -41,7 +41,7 @@ import SearchNav from './components/SearchNav'
 import SideRight from './components/SideRight'
 import CONFIG from './config'
 import { Style } from './style'
-import Loader from './components/Loader'
+import Loader from './components/loader'
 
 /**
  * 基础布局 采用上中下布局，移动端使用顶部侧边导航栏
